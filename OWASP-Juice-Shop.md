@@ -39,7 +39,7 @@ If we now login with the following credentials we will see that we are logged in
 Email: ' OR 1=1 --
 Password: '
 
-<img height="500" src="img/login.png"><br>
+<img height="400" src="img/login.png"><br>
 
 <img height="250" src="img/admin.png">
 
