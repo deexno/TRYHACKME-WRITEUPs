@@ -1,6 +1,6 @@
 # Intro
 
-1NF0: I made this WriteUp because I saw that none is available yet. And even though this CTF is very simple I want to offer a WriteUp to other users with maybe less experience and know how. So here it is:
+INFO: I made this WriteUp because I saw that none is available yet. And even though this CTF is very simple I want to offer a WriteUp to other users with maybe less experience and know how. So here it is:
 
 In the beginning I tried to collect some information, this part is not important for the Writeup (more or less) but I will introduce it here anyway and you are welcome to skip it.
 
