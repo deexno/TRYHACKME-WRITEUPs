@@ -39,9 +39,9 @@ If we now login with the following credentials we will see that we are logged in
 Email: ' OR 1=1 --
 Password: '
 
-<img height="400" src="img/login.png"><br>
+<img height="300" src="img/login.png"><br>
 
-<img height="250" src="img/admin.png">
+<img height="150" src="img/admin.png">
 
 </details>
 
