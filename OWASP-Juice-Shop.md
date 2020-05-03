@@ -69,7 +69,7 @@ In this task we have to find out the password from the administrator and for thi
 
 2. We open up the "Inspect Element" (F12) and go to "Storage" ---and---then---to---> "Cookies", there you will see an element with the name "token". Copy that token.
 
-<img height="400" src="img/admin-token.png">
+<img height="600" src="img/admin-token.png">
 
 3. Next we have to decode this token. For this reason we go to: http://calebb.net/ and enter the token there. We should then get the following output:
 
