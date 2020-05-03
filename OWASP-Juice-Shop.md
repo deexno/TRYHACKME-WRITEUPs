@@ -3,27 +3,27 @@ In the beginning I tried to collect some information, this part is not important
 
 <details><summary>Show Intro</summary>
 
-## First I looked at all comments under the products and found the following emails:
+### First I looked at all comments under the products and found the following emails:
 * admin@juice-sh.op
 * jim@juice-sh.op
 * bender@juice-sh.op
 * mc.safesearch@juice-sh.op
 
-## Afterwards I tried to login with the username: ' and the password ' which allowed me to find out how the SQL query is constructed:
+### Afterwards I tried to login with the username: ' and the password ' which allowed me to find out how the SQL query is constructed:
 --> sql: "SELECT * FROM Users WHERE email = ''' AND password = 'e034fb6b66aacc1d48f445ddfb08da98'"
 
-## And in the robots.txt file I found a subdirectory called: ftp (I will go into this in more detail later)
+### And in the robots.txt file I found a subdirectory called: ftp (I will go into this in more detail later)
 
-## I also ran gobuster and found the following subdirectories which might be interesting
+### I also ran gobuster and found the following subdirectories which might be interesting
 * */#/administration
 * */#/track-order
 </details>
 
-# TASK 4
+## TASK 4
 
 <details><summary>TASK 4</summary>
 
-## #1 Log in with the administrator's user account using SQL Injection
+### #1 Log in with the administrator's user account using SQL Injection
 
 At this task we try to log in as the administrator without knowing his password or his Email-address 
 
@@ -45,11 +45,11 @@ Password: '
 
 </details>
 
-# TASK 5
+## TASK 5
 
 <details><summary>TASK 5</summary>
   
-## #1 reset Jim's password using the forgotten password mechanism - what was the answer to the secret question?
+### #1 reset Jim's password using the forgotten password mechanism - what was the answer to the secret question?
 
 This task is very simple. We could try to bruteforce the secret question but that is far too complicated compared to the other solution. Becuase the Soulution is:
 
@@ -61,7 +61,7 @@ This task is very simple. We could try to bruteforce the secret question but tha
 
 <hr>
 
-## #2 What is the administrator password?
+### #2 What is the administrator password?
 
 In this task we have to find out the password from the administrator and for this reason we do the following:
 
@@ -102,11 +102,11 @@ In this task we have to find out the password from the administrator and for thi
   
 </details>
 
-# TASK 6
+## TASK 6
 
 <details><summary>TASK 6</summary>
 
-## #1 Access a confidential document and enter the name of the first file with the extension ".md"
+### #1 Access a confidential document and enter the name of the first file with the extension ".md"
 
 Now we use the previously found subdirectory. (/ftp)
 
@@ -116,11 +116,11 @@ To solve this task we simply go to /ftp and there we should see several markdown
 
 </details>
 
-# TASK 7
+## TASK 7
 
 <details><summary>TASK 7</summary>
   
-## #1 Access the administration section of the store - What is the name of the page?
+### #1 Access the administration section of the store - What is the name of the page?
 
 We have already found the solution to this problem with gobuster. 
 
@@ -128,7 +128,7 @@ We have already found the solution to this problem with gobuster.
 
 <hr>
 
-## #2 Access someone else's basket
+### #2 Access someone else's basket
 
 1. Add some Items to your basket
 
@@ -142,7 +142,7 @@ We have already found the solution to this problem with gobuster.
 
 <hr>
 
-## #3 Get rid of all 5 star customer feedback
+### #3 Get rid of all 5 star customer feedback
 
 Now we have the task to delete a comment which has a 5 star rating/feedback. For that reason er we do the following:  
 
@@ -152,11 +152,11 @@ Now we have the task to delete a comment which has a 5 star rating/feedback. For
 
 </details>
 
-# TASK 8
+## TASK 8
 
 <details><summary>TASK 8</summary>
   
-## #1 Carry out reflected XSS using Tracking Orders && #2 Carry out XSS using the Search field?
+### #1 Carry out reflected XSS using Tracking Orders && #2 Carry out XSS using the Search field?
  
 These last 2 tasks are again veeeeeery simple and more or less the same. To solve them do the following: 
 
