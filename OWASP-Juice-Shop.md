@@ -57,7 +57,7 @@ This task is very simple. We could try to bruteforce the secret question but tha
 
 2. Open up the Wikipedia article about him (James T. Kirk) and it says that the eldest sibling middle name of him is "Samuel"
 
-## *ANS: Samuel
+## ANS: Samuel
 
 <hr>
 
@@ -98,7 +98,7 @@ In this task we have to find out the password from the administrator and for thi
 
 5. So we go to https://www.md5online.org/ and enter there our hash. After we decrypted it, we shopuld get the following password:
 
-# *ANS: admin123
+## ANS: admin123
   
 </details>
 
