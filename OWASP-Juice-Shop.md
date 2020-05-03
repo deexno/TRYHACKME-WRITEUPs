@@ -57,7 +57,7 @@ This task is very simple. We could try to bruteforce the secret question but tha
 
 2. Open up the Wikipedia article about him (James T. Kirk) and it says that the eldest sibling middle name of him is "Samuel"
 
-## ANS: Samuel
+*ANS: Samuel
 
 <hr>
 
@@ -98,7 +98,7 @@ In this task we have to find out the password from the administrator and for thi
 
 5. So we go to https://www.md5online.org/ and enter there our hash. After we decrypted it, we shopuld get the following password:
 
-## ANS: admin123
+*ANS: admin123
   
 </details>
 
@@ -112,7 +112,7 @@ Now we use the previously found subdirectory. (/ftp)
 
 To solve this task we simply go to /ftp and there we should see several markdowns. There we should also find a file with the name: "acquisitions.md". This file is the "confidential" file and therefore the solution.
 
-ANS: /ftp/acquisitions.md
+*ANS: /ftp/acquisitions.md
 
 </details>
 
@@ -124,21 +124,45 @@ ANS: /ftp/acquisitions.md
 
 We have already found the solution to this problem with gobuster. 
 
-<mark>ANS: administration</mark>
+*ANS: administration
 
 <hr>
 
 ## #2 Access someone else's basket
 
+1. Add some Items to your basket
 
-  
+2. Go to your basket and open up the "Inspect Element"
+
+3. Open Up: "Storage" ---and---then---> "Session Storage"
+
+4. You will see now an Item in there with the name "bid". Replace that "bid" with a random number f.ex. 1
+
+5. Then reload the Website and you will see a basket of somebody else with the bid "1"
+
+## #3 Get rid of all 5 star customer feedback
+
+Now we have the task to delete a comment which has a 5 star rating/feedback. For that reason er we do the following:  
+
+1. go to /#/administration
+
+2. Delete the top feedback that has a 5 star rating
+
 </details>
 
 # TASK 8
 
 <details><summary>TASK 8</summary>
   
+## #1 Carry out reflected XSS using Tracking Orders && #2 Carry out XSS using the Search field?
+ 
+These last 2 tasks are again veeeeeery simple and more or less the same. To solve them do the following: 
 
+1. Open up /#/track-order
+
+2. Enter "<script>alert("XSS")</script>" instead of the tracking number and execute it by pressing the "tracking" button.
+
+3. For the 2nd task do the same, just enter the JS code in the search bar and runn it by pressing the "Search" button.  
   
 </details>
 
