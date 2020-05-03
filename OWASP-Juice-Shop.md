@@ -106,14 +106,30 @@ In this task we have to find out the password from the administrator and for thi
 
 <details><summary>TASK 6</summary>
 
+## #1 Access a confidential document and enter the name of the first file with the extension ".md"
 
-  
+Now we use the previously found subdirectory. (/ftp)
+
+To solve this task we simply go to /ftp and there we should see several markdowns. There we should also find a file with the name: "acquisitions.md". This file is the "confidential" file and therefore the solution.
+
+ANS: /ftp/acquisitions.md
+
 </details>
 
 # TASK 7
 
 <details><summary>TASK 7</summary>
   
+## #1 Access the administration section of the store - What is the name of the page?
+
+We have already found the solution to this problem with gobuster. 
+
+<mark>ANS: administration</mark>
+
+<hr>
+
+## #2 Access someone else's basket
+
 
   
 </details>
