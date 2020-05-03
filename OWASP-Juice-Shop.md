@@ -1,6 +1,8 @@
 # Intro
 In the beginning I tried to collect some information, this part is not important for the Writeup (more or less) but I will introduce it here anyway and you are welcome to skip it.
 
+<details><summary>Intro</summary>
+
 ## First I looked at all comments under the products and found the following emails:
 * *admin@juice-sh.op
 * *jim@juice-sh.op
@@ -17,6 +19,7 @@ In the beginning I tried to collect some information, this part is not important
 * */#/track-order
 
 <hr>
+</details>
 
 # TASK 5 
 #1 Log in with the administrator's user account using SQL Injection
