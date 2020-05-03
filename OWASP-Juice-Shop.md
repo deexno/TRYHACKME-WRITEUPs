@@ -4,10 +4,10 @@ In the beginning I tried to collect some information, this part is not important
 <details><summary>Show Intro</summary>
 
 ## First I looked at all comments under the products and found the following emails:
-* *admin@juice-sh.op
-* *jim@juice-sh.op
-* *bender@juice-sh.op
-* *mc.safesearch@juice-sh.op
+* admin@juice-sh.op
+* jim@juice-sh.op
+* bender@juice-sh.op
+* mc.safesearch@juice-sh.op
 
 ## Afterwards I tried to login with the username: ' and the password ' which allowed me to find out how the SQL query is constructed:
 --> sql: "SELECT * FROM Users WHERE email = ''' AND password = 'e034fb6b66aacc1d48f445ddfb08da98'"
