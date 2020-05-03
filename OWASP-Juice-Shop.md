@@ -140,6 +140,8 @@ We have already found the solution to this problem with gobuster.
 
 5. Then reload the Website and you will see a basket of somebody else with the bid "1"
 
+<hr>
+
 ## #3 Get rid of all 5 star customer feedback
 
 Now we have the task to delete a comment which has a 5 star rating/feedback. For that reason er we do the following:  
